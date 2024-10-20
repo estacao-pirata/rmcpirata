@@ -45,6 +45,7 @@
     - type: SquadArmorWearer
       leader: true
     - type: SquadLeader
+    - type: RMCPointing
 
 - type: startingGear
   id: CMGearSquadLeader
