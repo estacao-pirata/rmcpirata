@@ -339,3 +339,43 @@
   - RMCAreaSavannah
   id: RMCAreaSavannahBriefing
   name: Briefing
+
+
+# Pirata
+#
+#
+
+- type: entity
+  parent: RMCAreaSavannah
+  id: RMCAreaSavannahLifeboatPumps
+  name: Lifeboat Fuel Pumps
+  components:
+  - type: Sprite
+    state: lifeboat_pump
+  - type: Area
+    zLevel: 1
+    hijackEvacuationArea: true
+    hijackEvacuationWeight: 0.2
+    hijackEvacuationType: Add
+
+- type: entity
+  parent: RMCAreaSavannahLifeboatPumps
+  id: RMCAreaSavannahLifeboatPumpsNorth1
+  name: Starboard Lifeboat Fuel Pump
+
+- type: entity
+  parent: RMCAreaSavannahLifeboatPumps
+  id: RMCAreaSavannahLifeboatPumpsSouth1
+  name: Port Lifeboat Fuel Pump
+
+- type: entity
+  parent: RMCAreaSavannahEngineering
+  id: RMCAreaSavannahEngineeringLowerEngineCore
+  name: Engine Reactor Core Room
+  components:
+  - type: Sprite
+    state: coreroom
+  - type: Area
+    hijackEvacuationArea: true
+    hijackEvacuationWeight: 0.2
+    hijackEvacuationType: Add
