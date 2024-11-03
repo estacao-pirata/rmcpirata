@@ -46,6 +46,8 @@
       leader: true
     - type: SquadLeader
     - type: RMCPointing
+    - type: JobPrefix
+      prefix: "SL"
 
 - type: startingGear
   id: CMGearSquadLeader
@@ -67,6 +69,7 @@
 
 - type: playTimeTracker
   id: CMJobSquadLeader
+  isHumanoid: true
 
 - type: entity
   parent: CMSpawnPointJobBase
