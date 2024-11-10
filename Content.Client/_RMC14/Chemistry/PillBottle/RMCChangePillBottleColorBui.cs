@@ -1,6 +1,7 @@
 using Content.Shared._RMC14.Chemistry.ChemMaster;
 using Content.Shared._RMC14.Medical.HUD;
-using FastAccessors;
+// using FastAccessors;
+// Pirata - Comentado pra compilar
 using JetBrains.Annotations;
 using Robust.Client.UserInterface.Controls;
 using System;
