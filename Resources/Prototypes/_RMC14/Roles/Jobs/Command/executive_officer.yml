@@ -1,4 +1,4 @@
-﻿- type: job
+- type: job
   parent: CMJobBase
   id: CMExecutiveOfficer
   name: cm-job-name-executive-officer
@@ -12,7 +12,7 @@
 #     time: 18000 # 5 hours
     time: 10800 # 3 hours
   weight: 5
-  startingGear: CMGearStaffOfficer
+  startingGear: CMGearExecutiveOfficer
   icon: "CMJobIconExecutiveOfficer"
   requireAdminNotify: true
   joinNotifyCrew: true
